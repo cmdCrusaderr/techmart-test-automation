@@ -46,12 +46,6 @@ Alongside the scripted Playwright suite above, one scenario was also run through
 
 The local TechMart instance was exposed to KaneAI's cloud runner via a [cloudflared](https://github.com/cloudflare/cloudflared) tunnel (`cloudflared tunnel --url http://localhost:3000`).
 
-**TC-2 — Verify TechMart Homepage Content** (a 3-step natural-language scenario, expanded by the AI into 7 concrete sub-actions):
-
-1. Go to the homepage → check "Welcome to TechMart" heading is visible → assert true
-2. Get the page title → assert it contains "TechMart"
-3. Check "Welcome to TechMart" text is visible → assert true
-
 Result: **7/7 steps passed.**
 
 This covers the same ground as `test_homepage_loads` and `test_welcome_heading_visible` in `tests/test_homepage.py`, which makes for a direct comparison: the scripted version is explicit and fully version-controlled — you can read exactly what it checks and why it failed — while the AI-authored version is faster to write and more resilient to small markup changes, at the cost of precision about what it's actually doing under the hood.
