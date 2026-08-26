@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/ef892f1c-6635-458c-ae5b-67c922dc43cd
+
 # TechMart Test Automation Suite
 
 A Python test automation suite covering an e-commerce web app (TechMart) end to end: UI flows via Playwright, edge cases, and network-level mocking, plus a CI pipeline that runs the whole thing on every push.
@@ -53,3 +57,8 @@ This covers the same ground as `test_homepage_loads` and `test_welcome_heading_v
 ## What this demonstrates (and what it honestly doesn't)
 
 This project targets the core, learnable skills of a test-automation role: Python test automation, functional/regression/edge-case testing, CI/CD, and exposure to both traditional scripted and AI-native testing approaches. 
+
+## Attaching a test case (1/7) to show the Agentic testing environment
+
+https://github.com/user-attachments/assets/bf062594-5034-453d-b58a-9ecc907527df
+
