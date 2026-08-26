@@ -1,0 +1,9 @@
+venv/
+sample-app/node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+test_results.db
+report.html
+results.xml
+test-results/
